@@ -826,6 +826,8 @@
   ([?schema options]
    (-type (schema ?schema options))))
 
+(def name type)
+
 (defn validator
   ([?schema]
    (validator ?schema nil))
